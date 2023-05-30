@@ -11,19 +11,19 @@ const Footer = () => {
       <a href="#" className='footer__logo'>Musodiq</a>
 
       <ul className="permalinks">
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonial">Testimonials</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" rel="noopener noreferrer">Home</a></li>
+        <li><a href="#about" rel="noopener noreferrer">About</a></li>
+        <li><a href="#experience" rel="noopener noreferrer">Experience</a></li>
+        <li><a href="#services" rel="noopener noreferrer">Services</a></li>
+        <li><a href="#portfolio" rel="noopener noreferrer">Portfolio</a></li>
+        <li><a href="#testimonial" rel="noopener noreferrer">Testimonials</a></li>
+        <li><a href="#contact" rel="noopener noreferrer">Contact</a></li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook"><FaFacebookF/></a>
-        <a href="https://instagram"><FaInstagram/></a>
-        <a href="https://twitter.com/home"><ImTwitter /></a>
+        <a href="https://facebook" target='_blank' rel="noopener noreferrer"><FaFacebookF/></a>
+        <a href="https://instagram" target='_blank' rel="noopener noreferrer"><FaInstagram/></a>
+        <a href="https://twitter.com/home" target='_blank' rel="noopener noreferrer"><ImTwitter /></a>
       </div>
 
       <div className="footer__copyright">

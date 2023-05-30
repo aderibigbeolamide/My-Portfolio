@@ -28,28 +28,28 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon' />
             <h4>Email</h4>
             <h5>Olamide Email</h5>
-            <a href="mailto:aderibigbeolamide56@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:aderibigbeolamide56@gmail.com" target='_blank'rel="noopener noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
             <ImLinkedin className='contact__option-icon' />
             <h4>Linked</h4>
             <h5>Aderibigbe Musodiq Olamide</h5>
-            <a href="https://www.linkedin.com/in/musodiq-aderibigbe-a70975227/" target='_blank'>Send a message</a>
+            <a href="https://www.linkedin.com/in/musodiq-aderibigbe-a70975227/" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
             <FaGithub className='contact__option-icon' />
             <h4>Github</h4>
             <h5>Aderibigbe Musodiq Olamide</h5>
-            <a href="https://github.com/aderibigbeolamide" target='_blank'>Send a message</a>
+            <a href="https://github.com/aderibigbeolamide" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
             <FaWhatsapp className='contact__option-icon' />
             <h4>WhatsApp</h4>
             <h5>Aderibigbe Musodiq Olamide</h5>
-            <a href="https://api.whatsapp.com/send?phone+2348107183206" target='_blank'>Send a message</a>
+            <a href="https://api.whatsapp.com/send?phone+2348107183206" target='_blank' rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
