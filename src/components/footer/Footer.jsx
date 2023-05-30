@@ -8,10 +8,10 @@ import {ImTwitter} from 'react-icons/im'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" rel="noopener noreferrer" className='footer__logo'>Musodiq</a>
+      <a href="#Home" className='footer__logo'  rel="noopener noreferrer">Musodiq</a>
 
       <ul className="permalinks">
-        <li><a href="#" rel="noopener noreferrer">Home</a></li>
+        <li><a href="#Home" rel="noopener noreferrer">Home</a></li>
         <li><a href="#about" rel="noopener noreferrer">About</a></li>
         <li><a href="#experience" rel="noopener noreferrer">Experience</a></li>
         <li><a href="#services" rel="noopener noreferrer">Services</a></li>
