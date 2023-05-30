@@ -1,7 +1,6 @@
 import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assests/portfolio1.jpg'
-import IMG2 from '../../assests/portfolio2.png'
 
 
 const data = [
